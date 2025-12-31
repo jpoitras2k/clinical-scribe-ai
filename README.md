@@ -66,19 +66,31 @@ Link to SpaCy https://spacy.io/   Course Link https://course.spacy.io/en/
 
 ## Usage
 
-### Running Notebooks
-Start the Jupyter notebook server to explore the analysis:
+### 1. Running the Pipeline
+You can run the main processing pipeline directly from the command line. This script loads the data, runs entity extraction, and generates SOAP summaries.
+
+**Basic usage (process 10 records):**
+```bash
+python main.py --limit 10 --verbose
+```
+
+**Full usage options:**
+```bash
+python main.py --input data/mtsamples.csv --output data/results --limit 50
+```
+
+### 2. Running Tests
+To verify the system is working correctly, run the unit tests:
+```bash
+python -m unittest tests/test_basic.py
+```
+
+### 3. Jupyter Notebooks
+Start the Jupyter notebook server to explore the analysis and visual experiments:
 ```bash
 jupyter notebook
 ```
 Navigate to the `notebooks/` directory and open `01_eda.ipynb` to start.
-
-### Using the Python Modules (Future)
-Once implemented, you can use the modules in `src/` to process text programmatically:
-```python
-from src.extractor import extract_entities
-# Example usage (TBD)
-```
 
 ## Disclaimer
 ⚠️ **This project is for educational and research purposes only.**
