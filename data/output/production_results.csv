@@ -17,10 +17,10 @@ Patient presented for  Bariatrics. (See full transcription for details)
 None detected
 
 **ASSESSMENT / PROBLEMS**:
-pain, hypertension, asthma, fibrillation, diabetes, disease
+hypertension, diabetes, disease, fibrillation, asthma, pain
 
 **PLAN / TREATMENTS**:
-surgery","['pain', 'hypertension', 'asthma', 'fibrillation', 'diabetes', 'disease']",['surgery'],[]
+surgery","['hypertension', 'diabetes', 'disease', 'fibrillation', 'asthma', 'pain']",['surgery'],[]
 2, Bariatrics,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Bariatrics. (See full transcription for details)
 
@@ -28,10 +28,10 @@ Patient presented for  Bariatrics. (See full transcription for details)
 None detected
 
 **ASSESSMENT / PROBLEMS**:
-pain, hypertension, asthma, infection, fibrillation, diabetes, disease
+hypertension, diabetes, disease, fibrillation, asthma, pain, infection
 
 **PLAN / TREATMENTS**:
-medication, surgery","['pain', 'hypertension', 'asthma', 'infection', 'fibrillation', 'diabetes', 'disease']","['medication', 'surgery']",[]
+medication, surgery","['hypertension', 'diabetes', 'disease', 'fibrillation', 'asthma', 'pain', 'infection']","['medication', 'surgery']",[]
 3, Cardiovascular / Pulmonary,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Cardiovascular / Pulmonary. (See full transcription for details)
 
@@ -64,7 +64,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision, Surgery, PROCEDURE",[],"['procedure', 'incision', 'Surgery', 'PROCEDURE']",[]
+PROCEDURE, procedure, incision, Surgery",[],"['PROCEDURE', 'procedure', 'incision', 'Surgery']",[]
 6, Bariatrics,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Bariatrics. (See full transcription for details)
 
@@ -75,7 +75,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, Excision, incision, PROCEDURE",[],"['procedure', 'Excision', 'incision', 'PROCEDURE']",[]
+PROCEDURE, Excision, incision, procedure",[],"['PROCEDURE', 'Excision', 'incision', 'procedure']",[]
 7, Cardiovascular / Pulmonary,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Cardiovascular / Pulmonary. (See full transcription for details)
 
@@ -97,7 +97,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, PROCEDURE",[],"['procedure', 'PROCEDURE']",[]
+PROCEDURE, procedure",[],"['PROCEDURE', 'procedure']",[]
 9, Cardiovascular / Pulmonary,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Cardiovascular / Pulmonary. (See full transcription for details)
 
@@ -135,13 +135,13 @@ None detected",[],[],[]
 Patient presented for  Neurology. (See full transcription for details)
 
 **OBJECTIVE / TESTS**:
-Exam, Scan, MRI, exam, CT
+Scan, exam, MRI, Exam, CT
 
 **ASSESSMENT / PROBLEMS**:
 disease
 
 **PLAN / TREATMENTS**:
-None detected",['disease'],[],"['Exam', 'Scan', 'MRI', 'exam', 'CT']"
+None detected",['disease'],[],"['Scan', 'exam', 'MRI', 'Exam', 'CT']"
 13, Bariatrics,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Bariatrics. (See full transcription for details)
 
@@ -149,10 +149,10 @@ Patient presented for  Bariatrics. (See full transcription for details)
 exam
 
 **ASSESSMENT / PROBLEMS**:
-pain, hypertension, asthma, diabetes, disease
+hypertension, diabetes, disease, asthma, pain
 
 **PLAN / TREATMENTS**:
-mg, surgery","['pain', 'hypertension', 'asthma', 'diabetes', 'disease']","['mg', 'surgery']",['exam']
+surgery, mg","['hypertension', 'diabetes', 'disease', 'asthma', 'pain']","['surgery', 'mg']",['exam']
 14, Dentistry,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Dentistry. (See full transcription for details)
 
@@ -163,7 +163,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision, PROCEDURE",[],"['procedure', 'incision', 'PROCEDURE']",[]
+PROCEDURE, incision, procedure",[],"['PROCEDURE', 'incision', 'procedure']",[]
 15, Bariatrics,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Bariatrics. (See full transcription for details)
 
@@ -185,7 +185,7 @@ None detected
 infection
 
 **PLAN / TREATMENTS**:
-procedure, Surgery, excision, incision, PROCEDURE, SURGERY",['infection'],"['procedure', 'Surgery', 'excision', 'incision', 'PROCEDURE', 'SURGERY']",[]
+SURGERY, procedure, Surgery, excision, PROCEDURE, incision",['infection'],"['SURGERY', 'procedure', 'Surgery', 'excision', 'PROCEDURE', 'incision']",[]
 17, Bariatrics,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Bariatrics. (See full transcription for details)
 
@@ -207,7 +207,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision, PROCEDURE",[],"['procedure', 'incision', 'PROCEDURE']",[]
+PROCEDURE, incision, procedure",[],"['PROCEDURE', 'incision', 'procedure']",[]
 19, General Medicine,"**SUBJECTIVE / HISTORY**:
 Patient presented for  General Medicine. (See full transcription for details)
 
@@ -215,10 +215,10 @@ Patient presented for  General Medicine. (See full transcription for details)
 None detected
 
 **ASSESSMENT / PROBLEMS**:
-hypertension, asthma, diabetes
+hypertension, diabetes, asthma
 
 **PLAN / TREATMENTS**:
-None detected","['hypertension', 'asthma', 'diabetes']",[],[]
+None detected","['hypertension', 'diabetes', 'asthma']",[],[]
 20, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -251,7 +251,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision",[],"['procedure', 'incision']",[]
+incision, procedure",[],"['incision', 'procedure']",[]
 23, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -262,7 +262,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-incision, PROCEDURE",[],"['incision', 'PROCEDURE']",[]
+PROCEDURE, incision",[],"['PROCEDURE', 'incision']",[]
 24, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -284,7 +284,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision",[],"['procedure', 'incision']",[]
+incision, procedure",[],"['incision', 'procedure']",[]
 26, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -328,18 +328,18 @@ None detected
 pain
 
 **PLAN / TREATMENTS**:
-procedure, PROCEDURE",['pain'],"['procedure', 'PROCEDURE']",[]
+PROCEDURE, procedure",['pain'],"['PROCEDURE', 'procedure']",[]
 30, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
 **OBJECTIVE / TESTS**:
-exam, CT
+CT, exam
 
 **ASSESSMENT / PROBLEMS**:
 None detected
 
 **PLAN / TREATMENTS**:
-None detected",[],[],"['exam', 'CT']"
+None detected",[],[],"['CT', 'exam']"
 31, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -347,10 +347,10 @@ Patient presented for  Urology. (See full transcription for details)
 None detected
 
 **ASSESSMENT / PROBLEMS**:
-Hypertension, pain, disease
+pain, Hypertension, disease
 
 **PLAN / TREATMENTS**:
-Aspirin, mg, incision","['Hypertension', 'pain', 'disease']","['Aspirin', 'mg', 'incision']",[]
+Aspirin, incision, mg","['pain', 'Hypertension', 'disease']","['Aspirin', 'incision', 'mg']",[]
 32, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -372,7 +372,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision, PROCEDURE",[],"['procedure', 'incision', 'PROCEDURE']",[]
+PROCEDURE, incision, procedure",[],"['PROCEDURE', 'incision', 'procedure']",[]
 34, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -432,13 +432,13 @@ procedure","['pain', 'infection']",['procedure'],['ultrasound']
 Patient presented for  Urology. (See full transcription for details)
 
 **OBJECTIVE / TESTS**:
-Ultrasound, exam, ultrasound
+exam, Ultrasound, ultrasound
 
 **ASSESSMENT / PROBLEMS**:
 pain, infection
 
 **PLAN / TREATMENTS**:
-procedure, Procedure, surgery","['pain', 'infection']","['procedure', 'Procedure', 'surgery']","['Ultrasound', 'exam', 'ultrasound']"
+Procedure, procedure, surgery","['pain', 'infection']","['Procedure', 'procedure', 'surgery']","['exam', 'Ultrasound', 'ultrasound']"
 40, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -460,18 +460,18 @@ None detected
 pain
 
 **PLAN / TREATMENTS**:
-mg, incision, PROCEDURE, surgery",['pain'],"['mg', 'incision', 'PROCEDURE', 'surgery']",[]
+PROCEDURE, incision, surgery, mg",['pain'],"['PROCEDURE', 'incision', 'surgery', 'mg']",[]
 42, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
 **OBJECTIVE / TESTS**:
-EXAM, ULTRASOUND
+ULTRASOUND, EXAM
 
 **ASSESSMENT / PROBLEMS**:
 None detected
 
 **PLAN / TREATMENTS**:
-None detected",[],[],"['EXAM', 'ULTRASOUND']"
+None detected",[],[],"['ULTRASOUND', 'EXAM']"
 43, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -482,7 +482,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision, therapy, surgery",[],"['procedure', 'incision', 'therapy', 'surgery']",[]
+therapy, procedure, incision, surgery",[],"['therapy', 'procedure', 'incision', 'surgery']",[]
 44, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -493,7 +493,7 @@ None detected
 pain, infection
 
 **PLAN / TREATMENTS**:
-procedure, incision, PROCEDURE","['pain', 'infection']","['procedure', 'incision', 'PROCEDURE']",[]
+PROCEDURE, incision, procedure","['pain', 'infection']","['PROCEDURE', 'incision', 'procedure']",[]
 45, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -504,7 +504,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-incision, PROCEDURE",[],"['incision', 'PROCEDURE']",[]
+PROCEDURE, incision",[],"['PROCEDURE', 'incision']",[]
 46, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -526,7 +526,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-procedure, incision",[],"['procedure', 'incision']",[]
+incision, procedure",[],"['incision', 'procedure']",[]
 48, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -537,7 +537,7 @@ None detected
 pain, infection
 
 **PLAN / TREATMENTS**:
-procedure, incision","['pain', 'infection']","['procedure', 'incision']",[]
+incision, procedure","['pain', 'infection']","['incision', 'procedure']",[]
 49, Urology,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Urology. (See full transcription for details)
 
@@ -549,3 +549,553 @@ pain, infection
 
 **PLAN / TREATMENTS**:
 surgery","['pain', 'infection']",['surgery'],['labs']
+50, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+Infection
+
+**PLAN / TREATMENTS**:
+PROCEDURE, SURGERY, incision",['Infection'],"['PROCEDURE', 'SURGERY', 'incision']",[]
+51, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+Infection
+
+**PLAN / TREATMENTS**:
+SURGERY, incision, procedure",['Infection'],"['SURGERY', 'incision', 'procedure']",[]
+52, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+exam
+
+**ASSESSMENT / PROBLEMS**:
+pain, infection, disease, diabetes
+
+**PLAN / TREATMENTS**:
+mg","['pain', 'infection', 'disease', 'diabetes']",['mg'],['exam']
+53, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+scan
+
+**ASSESSMENT / PROBLEMS**:
+disease
+
+**PLAN / TREATMENTS**:
+Aspirin",['disease'],['Aspirin'],['scan']
+54, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+ultrasound
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+surgery",[],['surgery'],['ultrasound']
+55, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+therapy, incision, procedure",[],"['therapy', 'incision', 'procedure']",[]
+56, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+procedure",[],['procedure'],[]
+57, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+disease
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure, excision",['disease'],"['PROCEDURE', 'incision', 'procedure', 'excision']",[]
+58, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+Aspirin",[],['Aspirin'],[]
+59, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+exam
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+mg",[],['mg'],['exam']
+60, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+Ultrasound, scan, exam
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+None detected",[],[],"['Ultrasound', 'scan', 'exam']"
+61, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain, infection
+
+**PLAN / TREATMENTS**:
+Surgery, excision","['pain', 'infection']","['Surgery', 'excision']",[]
+62, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+disease
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision",['disease'],"['PROCEDURE', 'incision']",[]
+63, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+PROCEDURE, Excision, procedure",[],"['PROCEDURE', 'Excision', 'procedure']",[]
+64, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+scan, ultrasound
+
+**ASSESSMENT / PROBLEMS**:
+infection, fibrillation
+
+**PLAN / TREATMENTS**:
+procedure, surgery","['infection', 'fibrillation']","['procedure', 'surgery']","['scan', 'ultrasound']"
+65, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+None detected",[],[],[]
+66, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+CT, exam, scan
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+therapy",[],['therapy'],"['CT', 'exam', 'scan']"
+67, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+hypertension, diabetes, infection, disease
+
+**PLAN / TREATMENTS**:
+None detected","['hypertension', 'diabetes', 'infection', 'disease']",[],[]
+68, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+hypertension, pain, infection, Pain
+
+**PLAN / TREATMENTS**:
+medication, procedure","['hypertension', 'pain', 'infection', 'Pain']","['medication', 'procedure']",[]
+69, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+infection, asthma
+
+**PLAN / TREATMENTS**:
+surgery","['infection', 'asthma']",['surgery'],[]
+70, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+scan
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+None detected",['pain'],[],['scan']
+71, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+Excision, excision",[],"['Excision', 'excision']",[]
+72, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain, infection
+
+**PLAN / TREATMENTS**:
+incision, procedure","['pain', 'infection']","['incision', 'procedure']",[]
+73, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+ultrasound
+
+**ASSESSMENT / PROBLEMS**:
+disease
+
+**PLAN / TREATMENTS**:
+medication",['disease'],['medication'],['ultrasound']
+74, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+procedure",[],['procedure'],[]
+75, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+incision, procedure",[],"['incision', 'procedure']",[]
+76, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+incision, procedure",[],"['incision', 'procedure']",[]
+77, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+Ultrasound, ultrasound
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure",[],"['PROCEDURE', 'incision', 'procedure']","['Ultrasound', 'ultrasound']"
+78, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+incision, procedure",[],"['incision', 'procedure']",[]
+79, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+incision",[],['incision'],[]
+80, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision",['pain'],"['PROCEDURE', 'incision']",[]
+81, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+ultrasound
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+None detected",['pain'],[],['ultrasound']
+82, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+exam
+
+**ASSESSMENT / PROBLEMS**:
+pain, infection
+
+**PLAN / TREATMENTS**:
+incision, procedure","['pain', 'infection']","['incision', 'procedure']",['exam']
+83, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+infection
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure",['infection'],"['PROCEDURE', 'incision', 'procedure']",[]
+84, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+incision, procedure",[],"['incision', 'procedure']",[]
+85, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+ultrasound
+
+**ASSESSMENT / PROBLEMS**:
+infection
+
+**PLAN / TREATMENTS**:
+None detected",['infection'],[],['ultrasound']
+86, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+Ultrasound
+
+**ASSESSMENT / PROBLEMS**:
+pain, infection
+
+**PLAN / TREATMENTS**:
+incision, procedure","['pain', 'infection']","['incision', 'procedure']",['Ultrasound']
+87, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+MRI
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+tablet, incision, procedure",['pain'],"['tablet', 'incision', 'procedure']",['MRI']
+88, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+incision, procedure",[],"['incision', 'procedure']",[]
+89, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+incision, procedure",['pain'],"['incision', 'procedure']",[]
+90, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure",['pain'],"['PROCEDURE', 'incision', 'procedure']",[]
+91, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure",['pain'],"['PROCEDURE', 'incision', 'procedure']",[]
+92, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+incision, procedure",[],"['incision', 'procedure']",[]
+93, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+PROCEDURE, procedure, incision, surgery",[],"['PROCEDURE', 'procedure', 'incision', 'surgery']",[]
+94, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+procedure",[],['procedure'],[]
+95, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+infection
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure",['infection'],"['PROCEDURE', 'incision', 'procedure']",[]
+96, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure",[],"['PROCEDURE', 'incision', 'procedure']",[]
+98, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+PROCEDURE",['pain'],['PROCEDURE'],[]
+99, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision",['pain'],"['PROCEDURE', 'incision']",[]
+100, Urology,"**SUBJECTIVE / HISTORY**:
+Patient presented for  Urology. (See full transcription for details)
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+None detected
+
+**PLAN / TREATMENTS**:
+PROCEDURE, incision, procedure",[],"['PROCEDURE', 'incision', 'procedure']",[]

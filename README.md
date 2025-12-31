@@ -20,7 +20,6 @@ The emphasis is on data understanding, domain-aware NLP tools, evaluation, and l
 Link to SpaCy https://spacy.io/   Course Link https://course.spacy.io/en/
 
 ## Project Structure
-
 ```text
 ├── data/           # Dataset storage (raw and processed)
 ├── notebooks/      # Jupyter notebooks for exploration and prototyping

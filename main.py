@@ -10,6 +10,7 @@ def main():
     parser.add_argument("--input", default="data/mtsamples.csv", help="Path to input CSV file")
     parser.add_argument("--output", default="data/output", help="Directory to save results")
     parser.add_argument("--limit", type=int, default=50, help="Number of notes to process (for Speed)")
+    parser.add_argument("--verbose", action="store_true", help="Print sample outputs to console")
     
     args = parser.parse_args()
     
@@ -63,6 +64,17 @@ def main():
         
         if len(results) % 10 == 0:
             print(f"Processed {len(results)} records...")
+            
+    # 3b. Verbose Output (Show samples)
+    if args.verbose:
+        print("\n" + "="*60)
+        print("          SAMPLE PROCESSED RECORDS")
+        print("="*60)
+        for i, res in enumerate(results[:3]):
+            print(f"\n--- Record {i+1} ({res['specialty']}) ---")
+            print(res['generated_soap'])
+            print("-" * 60)
+        print("\n")
 
     # 4. Save Results
     output_df = pd.DataFrame(results)
