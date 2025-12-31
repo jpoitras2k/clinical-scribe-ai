@@ -31,6 +31,7 @@ Link to SpaCy https://spacy.io/   Course Link https://course.spacy.io/en/
 │   ├── fhir_mapper.py  # Mapping entities to FHIR standards
 │   ├── preprocessor.py # Text cleaning and preprocessing
 │   └── summarizer.py   # Summarization logic
+├── tests/          # Unit tests for the application
 ├── requirements.txt # Project dependencies
 └── README.md       # Project documentation
 ```
