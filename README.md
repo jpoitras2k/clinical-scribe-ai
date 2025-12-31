@@ -11,6 +11,7 @@ This project explores natural language processing techniques applied to real-wor
 1.  **Cleaning** raw medical dictations.
 2.  **Extracting** key medical entities (conditions, treatments) using spaCy.
 3.  **Generating** structured SOAP-style summaries.
+4.  **Mapping** entities to standard medical codes (ICD-10-CM, CPT).
 
 Here is a link to the dataset: https://www.kaggle.com/datasets/mirichoi1234/medical-transcriptions
 
@@ -22,6 +23,14 @@ The emphasis is on data understanding, domain-aware NLP tools, evaluation, and l
 ## Planing to use SpaCy for text processing and extraction.
 Link to SpaCy https://spacy.io/   Course Link https://course.spacy.io/en/
 
+## Medical Coding Standards
+The system automatically maps extracted entities to standard medical coding systems to facilitate billing and interoperability:
+
+*   **ICD-10-CM** (International Classification of Diseases, 10th Revision, Clinical Modification): Used for mapping identified **Problems** and **Diagnoses** (e.g., "Pneumonia" -> `J18.9`).
+*   **CPT/HCPCS** (Current Procedural Terminology): Used for mapping **Treatments**, **Procedures**, and **Tests** (e.g., "Surgery" -> `10021`, "X-Ray" -> `70010`).
+
+*Note: The current mapping uses a dictionary-based heuristic for demonstration purposes.*
+
 ## Project Structure
 ```text
 ├── data/           # Dataset storage (raw and processed)
@@ -31,7 +40,7 @@ Link to SpaCy https://spacy.io/   Course Link https://course.spacy.io/en/
 │   └── 03_summary.ipynb    # Summarization experiments
 ├── src/            # Source code for the application
 │   ├── extractor.py    # Entity extraction module
-│   ├── fhir_mapper.py  # Mapping entities to FHIR standards
+│   ├── fhir_mapper.py  # [NEW] Code mapping logic (ICD-10/CPT)
 │   ├── preprocessor.py # Text cleaning and preprocessing
 │   └── summarizer.py   # Summarization logic
 ├── tests/          # Unit tests for the application
@@ -67,6 +76,21 @@ Link to SpaCy https://spacy.io/   Course Link https://course.spacy.io/en/
     # OR for biomedical models (if using scispacy)
     # pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.1/en_core_sci_sm-0.5.1.tar.gz
     ```
+
+## Configuration
+To enable **AI-Powered Summarization** for the *Subjective* section of the SOAP notes, you need a Google Gemini API Key.
+
+1.  Get an API Key from [Google AI Studio](https://aistudio.google.com/).
+2.  Set it as an environment variable:
+    ```bash
+    # Windows (PowerShell)
+    $env:GEMINI_API_KEY="your_api_key_here"
+    
+    # macOS/Linux
+    export GEMINI_API_KEY="your_api_key_here"
+    ```
+
+> **Note**: If no API key is provided, the system will automatically fall back to a standard template-based summarizer.
 
 ## Usage
 

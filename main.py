@@ -4,6 +4,8 @@ import argparse
 from src.extractor import ClinicalExtractor
 from src.summarizer import ClinicalScribe
 
+from src.fhir_mapper import CodeMapper
+
 def main():
     # Setup argument parser
     parser = argparse.ArgumentParser(description="Medical Clinic Scribe AI - Production Pipeline")
@@ -26,6 +28,7 @@ def main():
     print("Initializing System Components...")
     extractor = ClinicalExtractor()
     scribe = ClinicalScribe()
+    mapper = CodeMapper()
     
     # 2. Load Data
     print(f"Loading data from {args.input}...")
@@ -49,14 +52,24 @@ def main():
         # A. Extract Entities
         entities = extractor.extract(text)
         
-        # B. Generate Summary
-        summary = scribe.generate_soap(entities, metadata={'specialty': specialty})
+        # B. Map Codes
+        coded_entities = {
+            "PROBLEM": [mapper.map_entity(e, "PROBLEM") for e in entities['PROBLEM']],
+            "TREATMENT": [mapper.map_entity(e, "TREATMENT") for e in entities['TREATMENT']],
+            "TEST": [mapper.map_entity(e, "TEST") for e in entities['TEST']]
+        }
+
+        # C. Generate Summary
+        summary = scribe.generate_soap(entities, metadata={'specialty': specialty, 'raw_text': text})
         
         # Store result
         results.append({
             'original_id': idx,
             'specialty': specialty,
             'generated_soap': summary,
+            'coded_problems': str(coded_entities['PROBLEM']), # Stringify for CSV
+            'coded_treatments': str(coded_entities['TREATMENT']),
+            'coded_tests': str(coded_entities['TEST']),
             'problems_found': entities['PROBLEM'],
             'treatments_found': entities['TREATMENT'],
             'tests_found': entities['TEST']
