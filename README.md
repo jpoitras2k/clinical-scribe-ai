@@ -12,6 +12,9 @@ This project explores natural language processing techniques applied to real-wor
 2.  **Extracting** key medical entities (conditions, treatments) using spaCy.
 3.  **Generating** structured SOAP-style summaries.
 
+Here is a link to the dataset: https://www.kaggle.com/datasets/mirichoi1234/medical-transcriptions
+
+
 The dataset (`mtsamples.csv`) contains thousands of de-identified transcriptions across various medical specialties.
 
 The emphasis is on data understanding, domain-aware NLP tools, evaluation, and limitations, rather than production deployment or clinical use.
@@ -92,6 +95,9 @@ Start the Jupyter notebook server to explore the analysis and visual experiments
 jupyter notebook
 ```
 Navigate to the `notebooks/` directory and open `01_eda.ipynb` to start.
+
+## Acknowledgments
+*   This project was developed with the assistance of LLMs (Google Gemini) for code generation, debugging, and documentation. This collaboration ensured efficient implementation of standard coding patterns while ensuring human oversight on architectural decisions, domain-specific logic, and clinical accuracy.
 
 ## Disclaimer
 ⚠️ **This project is for educational and research purposes only.**
