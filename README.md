@@ -95,9 +95,9 @@ To enable **AI-Powered Summarization** for the *Subjective* section of the SOAP 
 ### 1. Running the Pipeline
 You can run the main processing pipeline directly from the command line. This script loads the data, runs entity extraction, and generates SOAP summaries.
 
-**Basic usage (process 10 records):**
+**Basic usage (process 3 records) due to Google Gemini API Key limit:**
 ```bash
-python main.py --limit 10 --verbose
+python main.py --limit 3 --verbose
 ```
 
 **Full usage options:**

@@ -1,6 +1,6 @@
 original_id,specialty,generated_soap,coded_problems,coded_treatments,coded_tests,problems_found,treatments_found,tests_found
 0, Allergy / Immunology,"**SUBJECTIVE / HISTORY**:
-S: The patient is a 23-year-old female presenting with worsening allergies, reporting increased severity since relocating from Seattle. She has a history of allergies and has previously tried Claritin and Zyrtec, both of which provided initial relief but subsequently lost effectiveness. She resumed Allegra two weeks ago, but it is not providing adequate symptom control. She has utilized over-the-counter nasal sprays but has not used prescription nasal sprays. She has a history of asthma, which is currently well-controlled without daily medication and is not flaring. Her current medications include Allegra and Ortho Tri-Cyclen. She denies any known medication allergies.
+**S:** A 23-year-old female presents with worsening allergy symptoms. She reports a history of allergies, which she notes are more severe in her current location compared to when she lived in Seattle. In the past, she has tried Claritin and Zyrtec, both of which initially provided relief but then lost effectiveness. She restarted Allegra two weeks ago, but it is not providing adequate symptom control. She has used over-the-counter nasal sprays but no prescription nasal sprays. She has a history of asthma, which is currently well-controlled and not flaring. Her only current medications are Ortho Tri-Cyclen and Allegra. She reports no known medication allergies.
 
 **OBJECTIVE / TESTS**:
 None detected
@@ -10,3 +10,20 @@ asthma
 
 **PLAN / TREATMENTS**:
 medication","[{'text': 'asthma', 'code': 'J45.909', 'system': 'ICD-10-CM', 'description': 'Unspecified asthma, uncomplicated'}]","[{'text': 'medication', 'code': '99605', 'system': 'CPT/HCPCS', 'description': 'Medication therapy management service(s)'}]",[],['asthma'],['medication'],[]
+1, Bariatrics,"**SUBJECTIVE / HISTORY**:
+**Subjective:**
+
+The patient presents for weight management due to morbid obesity and its associated significant functional limitations and musculoskeletal pain. He reports a current weight of 312 lbs, which is 142 lbs over his ideal body weight of 170 lbs. He understands that a 60% reduction in his excess body weight (84 lbs) would bring him to approximately 228 lbs.
+
+He experiences considerable functional impairment, including difficulty climbing stairs, fitting into airline and public seating, tying shoes, and lifting objects off the floor. His exercise tolerance is limited, as he struggles to walk more than two blocks or five flights of stairs. He reports chronic muscle and joint pains in his knees, back, feet, and ankles, frequently accompanied by swelling. Associated symptoms include snoring and gastroesophageal reflux disease (GERD).
+
+Regarding his lifestyle, he states he is not an emotional eater but tends to consume large portions and carbohydrates, preferring chicken over steak and disliking sweets. He exercises at home with cardio three times per week. He has been actively attending weight support groups for the past seven months, having had a poor experience with a previous program, and expresses confidence in the current program. He previously smoked significantly but has reduced his intake to less than three cigarettes per day in recent months. He is allergic to Penicillin.
+
+**OBJECTIVE / TESTS**:
+None detected
+
+**ASSESSMENT / PROBLEMS**:
+pain, fibrillation, asthma, diabetes, hypertension, disease
+
+**PLAN / TREATMENTS**:
+surgery","[{'text': 'pain', 'code': 'R52', 'system': 'ICD-10-CM', 'description': 'Pain, unspecified'}, {'text': 'fibrillation', 'code': 'I48.91', 'system': 'ICD-10-CM', 'description': 'Unspecified atrial fibrillation'}, {'text': 'asthma', 'code': 'J45.909', 'system': 'ICD-10-CM', 'description': 'Unspecified asthma, uncomplicated'}, {'text': 'diabetes', 'code': 'E11.9', 'system': 'ICD-10-CM', 'description': 'Type 2 diabetes mellitus without complications'}, {'text': 'hypertension', 'code': 'I10', 'system': 'ICD-10-CM', 'description': 'Essential (primary) hypertension'}, {'text': 'disease', 'code': 'R69', 'system': 'ICD-10-CM', 'description': 'Illness, unspecified'}]","[{'text': 'surgery', 'code': '10021', 'system': 'CPT/HCPCS', 'description': 'Fine needle aspiration biopsy, without imaging guidance'}]",[],"['pain', 'fibrillation', 'asthma', 'diabetes', 'hypertension', 'disease']",['surgery'],[]
