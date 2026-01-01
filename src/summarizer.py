@@ -1,4 +1,6 @@
 import os
+import time
+import re
 from dotenv import load_dotenv
 from google import genai
 
@@ -11,7 +13,7 @@ class ClinicalScribe:
         self.api_key = os.getenv("GEMINI_API_KEY")
         if self.api_key:
             self.client = genai.Client(api_key=self.api_key)
-            self.model_id = 'gemini-2.0-flash'
+            self.model_id = 'gemini-2.5-flash'
             print("  [INFO] Gemini AI: ENABLED")
         else:
             self.client = None
@@ -69,9 +71,31 @@ class ClinicalScribe:
             f"Focus on the history of present illness and chief complaint.\n\n"
             f"Transcription:\n{text}"
         )
-        response = self.client.models.generate_content(
-            model=self.model_id,
-            contents=prompt
-        )
-        return response.text.strip()
+        # Retry logic for Rate Limits (429)
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                response = self.client.models.generate_content(
+                    model=self.model_id,
+                    contents=prompt
+                )
+                return response.text.strip()
+            except Exception as e:
+                error_str = str(e)
+                if "429" in error_str:
+                    print(f"  [WARNING] Rate Limit hit. Attempt {attempt+1}/{max_retries}.")
+                    # Try to extract wait time from error message
+                    wait_time = 30 # Default wait
+                    match = re.search(r"retry in (\d+(\.\d+)?)s", error_str)
+                    if match:
+                        wait_time = float(match.group(1)) + 1 # Add buffer
+                    
+                    if attempt < max_retries - 1:
+                        print(f"            Waiting {wait_time:.1f} seconds...")
+                        time.sleep(wait_time)
+                    else:
+                        print("            Max retries exceeded.")
+                        raise # Re-raise to trigger fallback
+                else:
+                    raise e # Re-raise other errors immediately
 
