@@ -17,10 +17,10 @@ Patient presented for  Bariatrics. (See full transcription for details)
 None detected
 
 **ASSESSMENT / PROBLEMS**:
-hypertension, pain, disease, asthma, diabetes, fibrillation
+diabetes, asthma, fibrillation, disease, pain, hypertension
 
 **PLAN / TREATMENTS**:
-surgery","[{'text': 'hypertension', 'code': 'I10', 'system': 'ICD-10-CM', 'description': 'Essential (primary) hypertension'}, {'text': 'pain', 'code': 'R52', 'system': 'ICD-10-CM', 'description': 'Pain, unspecified'}, {'text': 'disease', 'code': 'R69', 'system': 'ICD-10-CM', 'description': 'Illness, unspecified'}, {'text': 'asthma', 'code': 'J45.909', 'system': 'ICD-10-CM', 'description': 'Unspecified asthma, uncomplicated'}, {'text': 'diabetes', 'code': 'E11.9', 'system': 'ICD-10-CM', 'description': 'Type 2 diabetes mellitus without complications'}, {'text': 'fibrillation', 'code': 'I48.91', 'system': 'ICD-10-CM', 'description': 'Unspecified atrial fibrillation'}]","[{'text': 'surgery', 'code': '10021', 'system': 'CPT/HCPCS', 'description': 'Fine needle aspiration biopsy, without imaging guidance'}]",[],"['hypertension', 'pain', 'disease', 'asthma', 'diabetes', 'fibrillation']",['surgery'],[]
+surgery","[{'text': 'diabetes', 'code': 'E11.9', 'system': 'ICD-10-CM', 'description': 'Type 2 diabetes mellitus without complications'}, {'text': 'asthma', 'code': 'J45.909', 'system': 'ICD-10-CM', 'description': 'Unspecified asthma, uncomplicated'}, {'text': 'fibrillation', 'code': 'I48.91', 'system': 'ICD-10-CM', 'description': 'Unspecified atrial fibrillation'}, {'text': 'disease', 'code': 'R69', 'system': 'ICD-10-CM', 'description': 'Illness, unspecified'}, {'text': 'pain', 'code': 'R52', 'system': 'ICD-10-CM', 'description': 'Pain, unspecified'}, {'text': 'hypertension', 'code': 'I10', 'system': 'ICD-10-CM', 'description': 'Essential (primary) hypertension'}]","[{'text': 'surgery', 'code': '10021', 'system': 'CPT/HCPCS', 'description': 'Fine needle aspiration biopsy, without imaging guidance'}]",[],"['diabetes', 'asthma', 'fibrillation', 'disease', 'pain', 'hypertension']",['surgery'],[]
 2, Bariatrics,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Bariatrics. (See full transcription for details)
 
@@ -28,10 +28,10 @@ Patient presented for  Bariatrics. (See full transcription for details)
 None detected
 
 **ASSESSMENT / PROBLEMS**:
-hypertension, asthma, disease, pain, diabetes, infection, fibrillation
+diabetes, asthma, infection, disease, fibrillation, pain, hypertension
 
 **PLAN / TREATMENTS**:
-medication, surgery","[{'text': 'hypertension', 'code': 'I10', 'system': 'ICD-10-CM', 'description': 'Essential (primary) hypertension'}, {'text': 'asthma', 'code': 'J45.909', 'system': 'ICD-10-CM', 'description': 'Unspecified asthma, uncomplicated'}, {'text': 'disease', 'code': 'R69', 'system': 'ICD-10-CM', 'description': 'Illness, unspecified'}, {'text': 'pain', 'code': 'R52', 'system': 'ICD-10-CM', 'description': 'Pain, unspecified'}, {'text': 'diabetes', 'code': 'E11.9', 'system': 'ICD-10-CM', 'description': 'Type 2 diabetes mellitus without complications'}, {'text': 'infection', 'code': 'B99.9', 'system': 'ICD-10-CM', 'description': 'Unspecified infectious disease'}, {'text': 'fibrillation', 'code': 'I48.91', 'system': 'ICD-10-CM', 'description': 'Unspecified atrial fibrillation'}]","[{'text': 'medication', 'code': '99605', 'system': 'CPT/HCPCS', 'description': 'Medication therapy management service(s)'}, {'text': 'surgery', 'code': '10021', 'system': 'CPT/HCPCS', 'description': 'Fine needle aspiration biopsy, without imaging guidance'}]",[],"['hypertension', 'asthma', 'disease', 'pain', 'diabetes', 'infection', 'fibrillation']","['medication', 'surgery']",[]
+surgery, medication","[{'text': 'diabetes', 'code': 'E11.9', 'system': 'ICD-10-CM', 'description': 'Type 2 diabetes mellitus without complications'}, {'text': 'asthma', 'code': 'J45.909', 'system': 'ICD-10-CM', 'description': 'Unspecified asthma, uncomplicated'}, {'text': 'infection', 'code': 'B99.9', 'system': 'ICD-10-CM', 'description': 'Unspecified infectious disease'}, {'text': 'disease', 'code': 'R69', 'system': 'ICD-10-CM', 'description': 'Illness, unspecified'}, {'text': 'fibrillation', 'code': 'I48.91', 'system': 'ICD-10-CM', 'description': 'Unspecified atrial fibrillation'}, {'text': 'pain', 'code': 'R52', 'system': 'ICD-10-CM', 'description': 'Pain, unspecified'}, {'text': 'hypertension', 'code': 'I10', 'system': 'ICD-10-CM', 'description': 'Essential (primary) hypertension'}]","[{'text': 'surgery', 'code': '10021', 'system': 'CPT/HCPCS', 'description': 'Fine needle aspiration biopsy, without imaging guidance'}, {'text': 'medication', 'code': '99605', 'system': 'CPT/HCPCS', 'description': 'Medication therapy management service(s)'}]",[],"['diabetes', 'asthma', 'infection', 'disease', 'fibrillation', 'pain', 'hypertension']","['surgery', 'medication']",[]
 3, Cardiovascular / Pulmonary,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Cardiovascular / Pulmonary. (See full transcription for details)
 
@@ -64,7 +64,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-PROCEDURE, incision, procedure, Surgery",[],"[{'text': 'PROCEDURE', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}, {'text': 'incision', 'code': '10060', 'system': 'CPT/HCPCS', 'description': 'Incision and drainage of abscess'}, {'text': 'procedure', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}, {'text': 'Surgery', 'code': '10021', 'system': 'CPT/HCPCS', 'description': 'Fine needle aspiration biopsy, without imaging guidance'}]",[],[],"['PROCEDURE', 'incision', 'procedure', 'Surgery']",[]
+Surgery, incision, procedure, PROCEDURE",[],"[{'text': 'Surgery', 'code': '10021', 'system': 'CPT/HCPCS', 'description': 'Fine needle aspiration biopsy, without imaging guidance'}, {'text': 'incision', 'code': '10060', 'system': 'CPT/HCPCS', 'description': 'Incision and drainage of abscess'}, {'text': 'procedure', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}, {'text': 'PROCEDURE', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}]",[],[],"['Surgery', 'incision', 'procedure', 'PROCEDURE']",[]
 6, Bariatrics,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Bariatrics. (See full transcription for details)
 
@@ -75,7 +75,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-PROCEDURE, Excision, incision, procedure",[],"[{'text': 'PROCEDURE', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}, {'text': 'Excision', 'code': '11400', 'system': 'CPT/HCPCS', 'description': 'Excision, benign lesion including margins'}, {'text': 'incision', 'code': '10060', 'system': 'CPT/HCPCS', 'description': 'Incision and drainage of abscess'}, {'text': 'procedure', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}]",[],[],"['PROCEDURE', 'Excision', 'incision', 'procedure']",[]
+Excision, incision, procedure, PROCEDURE",[],"[{'text': 'Excision', 'code': '11400', 'system': 'CPT/HCPCS', 'description': 'Excision, benign lesion including margins'}, {'text': 'incision', 'code': '10060', 'system': 'CPT/HCPCS', 'description': 'Incision and drainage of abscess'}, {'text': 'procedure', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}, {'text': 'PROCEDURE', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}]",[],[],"['Excision', 'incision', 'procedure', 'PROCEDURE']",[]
 7, Cardiovascular / Pulmonary,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Cardiovascular / Pulmonary. (See full transcription for details)
 
@@ -97,7 +97,7 @@ None detected
 None detected
 
 **PLAN / TREATMENTS**:
-PROCEDURE, procedure",[],"[{'text': 'PROCEDURE', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}, {'text': 'procedure', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}]",[],[],"['PROCEDURE', 'procedure']",[]
+procedure, PROCEDURE",[],"[{'text': 'procedure', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}, {'text': 'PROCEDURE', 'code': '99213', 'system': 'CPT/HCPCS', 'description': 'Office or other outpatient visit'}]",[],[],"['procedure', 'PROCEDURE']",[]
 9, Cardiovascular / Pulmonary,"**SUBJECTIVE / HISTORY**:
 Patient presented for  Cardiovascular / Pulmonary. (See full transcription for details)
 

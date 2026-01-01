@@ -1,15 +1,21 @@
 import os
-import google.generativeai as genai
+from dotenv import load_dotenv
+from google import genai
+
+# Load environment variables
+load_dotenv()
 
 class ClinicalScribe:
     def __init__(self):
         # Configure Gemini if API key is present
         self.api_key = os.getenv("GEMINI_API_KEY")
         if self.api_key:
-            genai.configure(api_key=self.api_key)
-            self.model = genai.GenerativeModel('gemini-1.5-flash')
+            self.client = genai.Client(api_key=self.api_key)
+            self.model_id = 'gemini-2.0-flash'
+            print("  [INFO] Gemini AI: ENABLED")
         else:
-            self.model = None
+            self.client = None
+            print("  [INFO] Gemini AI: DISABLED (No API Key found)")
 
     def generate_soap(self, entities, metadata=None):
         """
@@ -33,7 +39,7 @@ class ClinicalScribe:
         # 1. Generate Subjective Section
         subjective_text = f"Patient presented for {specialty}. (See full transcription for details)"
         
-        if self.model and raw_text:
+        if self.client and raw_text:
             try:
                 subjective_text = self._generate_ai_summary(raw_text)
             except Exception as e:
@@ -63,6 +69,9 @@ class ClinicalScribe:
             f"Focus on the history of present illness and chief complaint.\n\n"
             f"Transcription:\n{text}"
         )
-        response = self.model.generate_content(prompt)
+        response = self.client.models.generate_content(
+            model=self.model_id,
+            contents=prompt
+        )
         return response.text.strip()
 

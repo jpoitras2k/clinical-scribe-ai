@@ -80,17 +80,15 @@ The system automatically maps extracted entities to standard medical coding syst
 ## Configuration
 To enable **AI-Powered Summarization** for the *Subjective* section of the SOAP notes, you need a Google Gemini API Key.
 
-1.  Get an API Key from [Google AI Studio](https://aistudio.google.com/).
-2.  Set it as an environment variable:
-    ```bash
-    # Windows (PowerShell)
-    $env:GEMINI_API_KEY="your_api_key_here"
-    
-    # macOS/Linux
-    export GEMINI_API_KEY="your_api_key_here"
-    ```
-
-> **Note**: If no API key is provided, the system will automatically fall back to a standard template-based summarizer.
+83: 1.  Get an API Key from [Google AI Studio](https://aistudio.google.com/).
+84: 2.  Create a file named `.env` in the root directory.
+85: 3.  Add your API Key to the file:
+86:     ```env
+87:     GEMINI_API_KEY=your_actual_api_key_here
+88:     ```
+89:     *(See `.env.example` for a template)*
+90: 
+91: > **Note**: If no API key is provided, the system will automatically fall back to a standard template-based summarizer.
 
 ## Usage
 

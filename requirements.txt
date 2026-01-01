@@ -9,4 +9,5 @@ notebook
 matplotlib
 seaborn
 tqdm
-google-generativeai
+python-dotenv
+google-genai
