@@ -1,6 +1,7 @@
 # clinical_note_nlp
 ### Entity Extraction and Structured Summarization of Medical Transcriptions
 
+
 *RoboGarden Applied ML Project*
 
 ## Project Context
