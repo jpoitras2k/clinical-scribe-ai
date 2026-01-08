@@ -14,7 +14,7 @@ This project explores natural language processing techniques applied to real-wor
 3.  **Generating** structured SOAP-style summaries.
 4.  **Mapping** entities to standard medical codes (ICD-10-CM, CPT).
 
-Here is a link to the dataset: https://www.kaggle.com/datasets/mirichoi1234/medical-transcriptions
+Here is a link to the dataset: https://www.kaggle.com/datasets/tboyle10/medicaltranscriptions
 
 
 The dataset (`mtsamples.csv`) contains thousands of de-identified transcriptions across various medical specialties.
